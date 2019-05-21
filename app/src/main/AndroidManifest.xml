@@ -25,7 +25,8 @@
                 <action android:name="android.intent.action.VIEW"></action>
             </intent-filter>
         </activity>!-->
-        <service android:name=".GPSService">
+        <service android:name=".GPSService"
+            android:exported="true">
 
         </service>
     </application>
